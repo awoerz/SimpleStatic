@@ -1,0 +1,18 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  padding: 10px;
+  margin: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  position: relative;
+  transition: all ease 0.5s;
+  top: 0;
+  box-shadow: -5px 5px 5px #31d19c;
+}
+
+.card-container:hover {
+  top: -10px;
+  box-shadow: -15px 15px 5px #31d19c;
+}
