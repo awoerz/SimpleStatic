@@ -1,0 +1,13 @@
+/*helper classes*/
+
+.fit-content {
+  width: fit-content;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
