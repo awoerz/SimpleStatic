@@ -7,3 +7,46 @@
   padding: 10px;
   transition: all ease 0.5s;
 }
+
+input {
+  width: fit-content;
+  height: 100%;
+  margin: 0 20px;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  background-color: white;
+  background: white;
+  border: 3px solid #31d19c;
+  border-radius: 5px;
+}
+
+button {
+  width: fit-content;
+  height: fit-content;
+  margin: 0 20px;
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #31d19c;
+  background-color: white;
+  background: white;
+  border: 3px solid #31d19c;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: white;
+  background: #31d19c;
+  background-color: #31d19c;
+}
+
+button:focus {
+  top: 5px;
+}
+
+li {
+  list-style: none;
+}

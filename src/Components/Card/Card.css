@@ -16,3 +16,36 @@
   top: -10px;
   box-shadow: -15px 15px 5px #31d19c;
 }
+
+.trash-can-container {
+  border: 0px;
+  height: fit-content;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.trash-can-container:hover {
+  background-color: none;
+  background: none;
+}
+
+.trash-can-image {
+  border: 2px white;
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+.trash-can-image:hover {
+  background: #31d19c;
+  border-radius: 5px;
+}
