@@ -1,6 +1,9 @@
 .menu {
   background-color: #31d19c;
   padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .appNameText {

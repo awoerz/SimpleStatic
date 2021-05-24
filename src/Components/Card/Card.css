@@ -24,6 +24,7 @@
   padding: 0;
   margin: 0;
   display: flex;
+  justify-self: end;
   justify-content: flex-end;
   align-items: flex-end;
 }
@@ -42,6 +43,7 @@
 }
 
 h2 {
+  text-align: center;
   margin: 0;
 }
 

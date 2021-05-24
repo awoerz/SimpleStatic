@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Header from './Components/Header/Header';
 import CardPalette from './Components/CardPalette/CardPalette';
+import Modal from './Components/Modal/Modal';
 import './Global.css';
 
 function App() {

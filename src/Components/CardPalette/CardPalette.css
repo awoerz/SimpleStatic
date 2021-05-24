@@ -1,3 +1,15 @@
+.outer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-text,
+.input-area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .card-palette-container {
   display: flex;
   flex-direction: row;
@@ -6,6 +18,7 @@
   width: 80%;
   padding: 10px;
   transition: all ease 0.5s;
+  margin: 0 auto;
 }
 
 input {

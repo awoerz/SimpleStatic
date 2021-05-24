@@ -8,10 +8,6 @@ export default function Header() {
       <div className="appNameContainer">
         <h1 className="appNameText">SimpleStatic</h1>
       </div>
-      <ul className="menu-items">
-
-
-      </ul>
     </div>
     </>
   )

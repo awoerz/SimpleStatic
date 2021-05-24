@@ -8,7 +8,6 @@ function CardPalette() {
     const [cards, setCards] = useState([]);
     const [id, setId] = useState(1);
     const inputRef = useRef(null);
-    const testInput = useRef(null);
 
     const addCard = () => {
         const card = {
@@ -34,18 +33,12 @@ function CardPalette() {
 
     return (
         <>
-            <h1>Sites</h1>
-            <div>
+        <div className="outer-container">
+            <h1 className="header-text">Sites</h1>
+            <div className="input-area">
                 <input ref={inputRef} type="text" placeholder="New Site Name"/>
                 <button onClick={addCard} >Add Site</button>
             </div>
-            <br></br>
-            {/* 
-            <div>
-                <input ref={testInput} type="number" />
-                <button onClick={() => {removeCard(testInput.current.value)} }> Remove Site</button>
-            </div>
-            */}
             <div className='card-palette-container'>
                 {Object.keys(cards).map((key) => {
                     return (
@@ -55,6 +48,7 @@ function CardPalette() {
                     )
                 })}
             </div>
+        </div>
         </>
     )
 }
